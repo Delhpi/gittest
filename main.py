@@ -1,6 +1,6 @@
 import sys
 print(sys.executable)
 #再修改一 下
-1547
+1547错误修改的
 
 
