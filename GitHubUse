@@ -1,0 +1,5 @@
+全面加速 GitHub，git clone 太慢的 9 种解决办法
+https://zhuanlan.zhihu.com/p/97832808
+原因：git clone特别慢是因为http://github.global.ssl.fastly.net域名被限制了。只要找到这个域名对应的ip地址，然后在hosts文件中加上ip–>域名的映射，刷新DNS缓存便可。
+
+nslookup http://github.global.ssl.fastly.Net
