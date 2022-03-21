@@ -19,9 +19,10 @@ https://zhuanlan.zhihu.com/p/100243017
 
 6. 合并出现冲突，修正后再add，和commit完成最终的合并
 
-7. use "git checkout -- <file>..." to discard changes in working directory
-    把文件在工作区的修改全部撤销，这里有两种情况：
-一种是文件修改前已经commit到库了，修改后还没add到暂存区，撤销修改就回到和版本库状态,工作区无文件。
-一种是文件先已add到暂存区，后又作了修改，现在，撤销修改就回到添加到暂存区后的状态，工作区无文件。
-
+7. "git checkout -- <file>..." to discard changes in working directory
+   把文件在工作区的修改全部撤销：
+  1. 文件修改前已经commit到库了，修改后还没add到暂存区，撤销修改就回到和版本库状态,工作区无文件。
+  2. 是文件先已add到暂存区，后又作了修改，现在，撤销修改就回到添加到暂存区后的状态，工作区无文件。
 总之，就是让这个文件回到最近一次git commit或git add时的状态。
+
+8. 回退版本git reset HEAD
