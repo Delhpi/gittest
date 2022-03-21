@@ -14,5 +14,7 @@ After staging changes to many files, you can alter the order the changes are rec
 
 5. --amend
 Replace the tip of the current branch by creating a new commit. 
+https://zhuanlan.zhihu.com/p/100243017
+要修改已经提交过的文件，先add，然后git commit --amend 修改commit注释信息，然后先pull，再push。
 
 6. 合并出现冲突，修正后再add，和commit完成最终的合并
