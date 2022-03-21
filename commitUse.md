@@ -26,3 +26,4 @@ https://zhuanlan.zhihu.com/p/100243017
 总之，就是让这个文件回到最近一次git commit或git add时的状态。
 
 8. 回退版本git reset HEAD
+
